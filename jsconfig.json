@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["ESNext"]
+  },
+  "include": [
+    "./module/**/*.mjs",
+    "../../foundryvtt/resources/app/**/*.js",
+    "../../foundryvtt/resources/app/**/*.mjs",
+  ]
+}

@@ -1,0 +1,42 @@
+{
+    "name": "illior-system",
+    "version": "0.0.1",
+    "description": "",
+    "scripts": {
+        "build": "gulp buildAll",
+        "build:clean": "gulp cleanPacks",
+        "build:css": "gulp buildCSS",
+        "build:db": "gulp compilePacks",
+        "build:json": "gulp extractPacks",
+        "build:watch": "gulp",
+        "lint": "gulp lint",
+        "lint:fix": "gulp lint --fix"
+    },
+    "browserslist": [
+        "last 3 versions"
+    ],
+    "author": "",
+    "private": true,
+    "devDependencies": {
+        "@babel/eslint-parser": "^7.22.15",
+        "@rollup/plugin-node-resolve": "^15.2.1",
+        "@types/gulp": "^4.0.14",
+        "@types/gulp-if": "^3.0.2",
+        "@types/gulp-postcss": "^8.0.4",
+        "@types/gulp-rename": "^2.0.3",
+        "@types/merge-stream": "^1.1.2",
+        "@types/yargs": "^17.0.26",
+        "eslint-plugin-jsdoc": "^46.8.2",
+        "gulp": "^4.0.2",
+        "gulp-eslint-new": "^1.8.4",
+        "gulp-if": "^3.0.0",
+        "gulp-postcss": "^9.0.1",
+        "gulp-rename": "^2.0.0",
+        "merge-stream": "^2.0.0",
+        "postcss": "^8.4.31",
+        "postcss-import": "^15.1.0",
+        "rollup": "^3.29.4",
+        "tailwindcss": "^3.3.3",
+        "yargs": "^17.7.2"
+    }
+}

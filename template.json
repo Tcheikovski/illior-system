@@ -1,0 +1,129 @@
+{
+    "Actor": {
+        "types": [
+            "character",
+            "npc"
+        ],
+        "templates": {
+            "common": {
+                "abilities": {
+                    "phy": {
+                        "value": 10,
+                        "max": null
+                    },
+                    "soc": {
+                        "value": 10,
+                        "max": null
+                    },
+                    "spi": {
+                        "value": 10,
+                        "max": null
+                    },
+                    "uti": {
+                        "value": 10,
+                        "max": null
+                    }
+                },
+                "attributes": {
+                    "hp": {
+                        "value": 10,
+                        "max": null
+                    }
+                },
+                "details": {
+                    "biography": {
+                        "value": "",
+                        "public": ""
+                    }
+                },
+                "traits": {
+                    "size": "med"
+                },
+                "currency": {
+                    "gp": 0,
+                    "sp": 0,
+                    "cp": 0
+                }
+            },
+            "creature": {
+                "abilities": {
+                    "str": {
+                        "value": 0,
+                        "max": null,
+                        "ability": "phy"
+                    },
+                    "dex": {
+                        "value": 0,
+                        "max": null,
+                        "ability": "phy"
+                    },
+                    "agi": {
+                        "value": 0,
+                        "max": null,
+                        "ability": "phy"
+                    },
+                    "lea": {
+                        "value": 0,
+                        "max": null,
+                        "ability": "soc"
+                    },
+                    "rel": {
+                        "value": 0,
+                        "max": null,
+                        "ability": "soc"
+                    },
+                    "man": {
+                        "value": 0,
+                        "max": null,
+                        "ability": "soc"
+                    },
+                    "kno": {
+                        "value": 0,
+                        "max": null,
+                        "ability": "spi"
+                    },
+                    "ref": {
+                        "value": 0,
+                        "max": null,
+                        "ability": "spi"
+                    },
+                    "wil": {
+                        "value": 0,
+                        "max": null,
+                        "ability": "spi"
+                    }
+                },
+                "details": {
+                    "race": ""
+                },
+                "skills": {},
+                "spells": {}
+            }
+        },
+        "htmlFields": [
+            "details.biography.value",
+            "details.biography.public",
+            "description.full",
+            "description.summary"
+        ],
+        "character": {
+            "templates": [
+                "common",
+                "creature"
+            ],
+            "details": {
+                "class": "",
+                "xp": {
+                    "value": 0
+                }
+            }
+        },
+        "npc": {
+            "templates": [
+                "common",
+                "creature"
+            ]
+        }
+    },
+    "Item": {}
+}

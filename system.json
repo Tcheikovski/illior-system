@@ -1,0 +1,39 @@
+{
+    "id": "illior",
+    "title": "Illior System",
+    "description": "",
+    "version": "0.0.1-alpha.0",
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11"
+    },
+    "url": "https://github.com/Tcheikovski/illior-system/",
+    "manifest": "https://raw.githubusercontent.com/Tcheikovski/illior-system/master/system.json",
+    "download": "https://github.com/Tcheikovski/illior-system/releases/download/release-0.0.1-alpha.0/illior-release-0.0.1-alpha.0.zip",
+    "authors": [
+        {
+            "name": "Tcheikovski",
+            "url": "https://github.com/Tcheikovski"
+        }
+    ],
+    "esmodules": [
+        "illior.mjs"
+    ],
+    "styles": [
+        "illior.css"
+    ],
+    "packs": [],
+    "packFolders": [],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json",
+            "flags": {}
+        }
+    ],
+    "gridDistance": 2,
+    "gridUnits": "m",
+    "primaryTokenAttribute": "attributes.hp",
+    "flags": {}
+}
